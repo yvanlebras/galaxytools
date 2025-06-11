@@ -67,7 +67,7 @@
     </configfiles>
     <inputs>
         <param name="input_images" type="data" format="jpg,png,tiff" multiple="true"  label="Input images"/>
-        <param name="input_yolo" type="data" format="txt" multiple="true"  label="Input YOLO txt files" help="The YOLO text files, each text file must correspond to one input image(same name different extension)." />
+        <param name="input_yolo" type="data" format="txt" multiple="true"  label="Input YOLO txt files" help="The YOLO text files, each text file must correspond to one input image (same name different extension)." />
 	<param name="ds_name" type="text" label="Name of dataset" help="The name for your dataset"/>
 
 	<section name="training_params" title="Training Parameters">
@@ -140,8 +140,8 @@
         
 	**Overview**
             1. **Input Images**: Provide a collection of images for training.
-            2. **Dataset Splitting**: The images are automatically split into training,validation and test set.
-            3. **Model Training**: A model is trained using.
+            2. **Dataset Splitting**: The images are automatically split into training, validation and test set.
+            3. **Model Training**: A model is trained using YOLO.
 
         **Outputs:**
             - `best.pt`: The best-performing model checkpoint based on validation metrics.
